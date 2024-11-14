@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Portal Help</title>
+    <link rel="stylesheet" href="help.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Help Center</h1>
+        <p>Find answers to your queries</p>
+        <input type="text" id="search-bar" placeholder="Search help topics...">
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <!-- Help Categories -->
+        <section id="help-categories">
+            <h2>Help Topics</h2>
+            <div class="categories">
+                <div class="category">
+                    <h3>Job Search</h3>
+                    <ul>
+                        <li><a href="#">How to search for jobs?</a></li>
+                        <li><a href="#">Setting up job alerts</a></li>
+                        <li><a href="#">Saving job searches</a></li>
+                    </ul>
+                </div>
+                <div class="category">
+                    <h3>Resume Management</h3>
+                    <ul>
+                        <li><a href="#">How to upload your resume?</a></li>
+                        <li><a href="#">Editing your resume</a></li>
+                        <li><a href="#">Tips for a great resume</a></li>
+                    </ul>
+                </div>
+                <div class="category">
+                    <h3>Account Management</h3>
+                    <ul>
+                        <li><a href="#">How to reset your password?</a></li>
+                        <li><a href="#">Updating profile information</a></li>
+                        <li><a href="#">Account privacy settings</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQs Section -->
+        <section id="faq">
+            <h2>Frequently Asked Questions (FAQs)</h2>
+            <div class="faq-item">
+                <h3>How do I reset my password?</h3>
+                <p>To reset your password, go to the login page, click on "Forgot Password", and follow the instructions sent to your email.</p>
+            </div>
+            <div class="faq-item">
+                <h3>How do I update my resume?</h3>
+                <p>Login to your account, navigate to the "My Profile" section, and click "Edit Resume" to upload a new one or make changes.</p>
+            </div>
+            <div class="faq-item">
+                <h3>How do I set up job alerts?</h3>
+                <p>Go to the "Job Alerts" section in your account and select the criteria for jobs you want to receive alerts for.</p>
+            </div>
+        </section>
+
+        <!-- Contact Support Section -->
+        <section id="contact-support">
+            <h2>Contact Support</h2>
+            <p>If you can't find the answer to your question, please reach out to our support team.</p>
+            <button onclick="openContactForm()">Contact Us</button>
+
+            <!-- Contact Form (Hidden initially) -->
+            <div id="contact-form" style="display:none;">
+                <h3>Submit a Request</h3>
+                <form>
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="issue">Issue:</label>
+                    <textarea id="issue" name="issue" rows="4" required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Job Portal. All rights reserved.</p>
+    </footer>
+
+    <script src="help.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.carousel-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    max-width: 80%;
+    margin: auto;
+    overflow: hidden; /* Hide overflow */
+}
+
+.roles {
+    display: flex;
+    overflow-x: scroll; /* Allow horizontal scrolling */
+    scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+.roles::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
+}
+
+.roles {
+    overflow: scroll;  /* Hide scrollbar for Internet Explorer and Edge */
+    scrollbar-width: none;  /* Hide scrollbar for Firefox */
+}
+
+.role-y {
+    min-width: 300px;
+    margin: 0 10px;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.role-y img {
+    width: 150px;
+    height: auto;
+}
+
+.btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.left-btn {
+    left: 0;
+}
+
+.right-btn {
+    right: 0;
+}

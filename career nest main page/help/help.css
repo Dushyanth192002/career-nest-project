@@ -1,0 +1,147 @@
+/* Basic reset and styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    background-color: #0073e6;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+#search-bar {
+    padding: 10px;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Help Categories */
+#help-categories {
+    margin-bottom: 40px;
+    
+}
+#help-categories h2{
+    margin-left: 40px;
+}
+
+
+#help-categories .categories {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.category h3 {
+    margin-bottom: 10px;
+}
+
+.category ul {
+    list-style-type: none;
+}
+
+.category li {
+    margin-bottom: 10px;
+}
+
+.category a {
+    text-decoration: none;
+    color: #0073e6;
+}
+
+.category a:hover {
+    text-decoration: underline;
+}
+
+/* FAQs Section */
+#faq .faq-item {
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+#faq{
+    margin-left: 40px;
+}
+
+/* Contact Support */
+#contact-support {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+#contact-support button {
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px auto;
+}
+
+#contact-support button:hover {
+    background-color: #005bb5;
+}
+
+#contact-form {
+    margin-top: 20px;
+}
+
+#contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form label {
+    margin-bottom: 5px;
+}
+
+#contact-form input, 
+#contact-form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: #005bb5;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 40px;
+}

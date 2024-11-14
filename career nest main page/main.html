@@ -1,0 +1,1040 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>career nest</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div class="main-div">
+        <section>
+            <div class="main-nav">
+                <nav>
+                    <div class="logo">
+                        <img src="logo.png" alt="logo" class="log-img">
+                    </div>
+                    <div class="main-list">
+                        <ul class="m-ul">
+                            <li class="m-li">
+                              <a href="#" onclick="showContent('prepare')">Prepare</a>
+                            <ul class="sub-ul">
+                                <li class="sub-li"><a href="#">Pathfinder</a></li>
+                                <li class="sub-li"><a href="#">NCAT</a></li>
+                                <li class="sub-li"><a href="#">Expert speak</a></li>
+                                <li class="sub-li"><a href="#">Resume maker</a></li>
+                                <li class="sub-li"><a href="#">Career guidance</a></li>
+                            </ul>
+                            </li>
+                            <li class="m-li"><a href="#" onclick="showContent('participate')">Participate</a></li>
+                            <li class="m-li"><a href="#" onclick="showContent('opportunities')">Opportunities</a></li>
+                        </ul>
+                    </div>
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search here" class="search">
+                        <div>
+                            <button class="serch-btn"><a href="/career nest home page/company/company.html"><span class="material-symbols-outlined">
+                              search
+                              </span></a></button>
+                        </div>
+                    </div>
+                    
+                    <div class="acc-btn" id="accountButton">
+                        <button class="btn"><span class="material-symbols-outlined">
+                            account_circle
+                            </span></button>
+                    </div>
+                </nav>
+            </div>
+        </section>
+        <div class="first-flex">
+        <section>
+            
+            <div class="m-profile">
+                <div class="profile">
+                    <svg width="80" height="80" viewBox="0 0 200 200">
+                
+                        <circle cx="100" cy="100" r="90" stroke="#e0e0e0" stroke-width="15" fill="none" />
+                        
+                      
+                        <circle cx="100" cy="100" r="90" stroke="#4caf50" stroke-width="15" fill="none"
+                                stroke-dasharray="565.48" stroke-dashoffset="113.1" stroke-linecap="round"
+                                transform="rotate(-90 100 100)" />
+                        
+                      
+                        <clipPath id="profileClip">
+                          <circle cx="100" cy="100" r="80" />
+                        </clipPath>
+                        <image x="20" y="20" width="160" height="160" xlink:href="account.png" clip-path="url(#profileClip)" />
+                      </svg>
+                </div>
+                <div class="y-profile-lab">
+                  <h3><p> <span id="displayUsername"></span></p></h3>
+                  <h3 id="displayuniversity"></h3>
+                </div> 
+                <div class="y-profile-btn">
+                    <button class="y-c-btn">
+                        
+                        <a href="/career nest home page/career nest main page/c-profil/profile.html" class="a-a">complete profile</a>
+                    </button>
+                </div>
+                <div class="y-profile-update">
+                    <div class="profile-y">Profile performance</div>
+                    <div class="y-profile-pending">
+                        <div y-pending1>
+                            <div class="pending1">Search appearances
+                                <p id="randomNumber1">Random Number will appear here!</p>
+                            </div>
+                        </div>
+                        <div class="code"></div>
+                        <div y-pending2>
+                            <div class="pending2">Recruiter actions 
+                                <p id="randomNumber">Random Number will appear here!</p><div>
+                                
+                            </div></div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+                  
+            
+        </section>
+         <section class="overflow">
+            <div class="center-content">
+              <div id="prepare" class="content-section active">
+                <div class="banner">
+                    <div class="content" >
+                        <h2>YOUNGTURKS</h2>
+                        <p>India's biggest skill contest to help you stand out to recruiters.</p>
+                        <p>Prize pool of ₹20 lakh</p>
+                        <p>Boost your CV with a winner's certificate</p>
+                        <button>Know more</button>
+                    </div>
+            </div>
+            <div class="all">
+               <div class="inner-all">
+                <div class="add-head">
+                    <h3>Keep a track of all your activities in one place!</h3>
+                </div>
+                <div class="flex-d">
+                    <div>
+                        
+                        <div class="moniter">
+                            <span class="material-symbols-outlined">
+                                monitoring
+                                </span>
+                                Monitor your progress
+                        </div>
+                        <div class="idea">
+                            <span class="material-symbols-outlined">
+                                emoji_objects
+                                </span>Get personalised insights
+                        </div>
+                        <button class="activity"> Check your activity</button>
+                        <div>
+                            
+                        </div>
+                    </div>
+                    <div class="thubms">
+                        <img src="image/thubms.png" alt="boy" class="thub">
+                    </div>
+                </div>
+
+               </div>
+
+            </div>
+            <div class="y-job-com">
+                <div class="mnc-head">
+                    <h2 class="m-h2">Recommended jobs for you</h2>
+                </div>
+        
+                <div class="tabs">
+                    <!-- Radio buttons to control tab behavior -->
+                    <input type="radio" name="tab" id="tab1" checked>
+                    <input type="radio" name="tab" id="tab2">
+                    <input type="radio" name="tab" id="tab3">
+        
+                    <!-- Labels for tabs -->
+                    <div class="tab-labels">
+                        <label for="tab1">Applies (6)</label>
+                        <label for="tab2">You Might Like (2)</label>
+                        <label for="tab3">Preferences (4)</label>
+                    </div>
+        
+                    <!-- Content for each tab -->
+                    <div class="tab-content">
+                        <div class="content" id="applies">
+                            <h3></h3>
+                            <div class="contentflex">
+                                <a href="#">
+                                    <div class="job-card">
+                                        <div class="job-card_sec1">
+                                          <img class="job-card_img" src="image/it list/zoho-logo-512.png" alt="">
+                                        </div>
+                                        <div class="job-card_sec12" id="job-card_sec12" >
+                                          <h2>Zoho</h2>
+                                          <p>⭐4.2 | 6892 Reviews</p>
+                                          <h3>Software Developer</h3>
+                                          <p>| chennai | 0-1 Yrs</p>
+                                          <p>Skills: Python, C, JAva , oops</p>
+                                        </div>
+                                         
+                                        </div>
+                                </a>
+                                   <a href="#"> <div class="job-card">
+                                    <div class="job-card_sec1">
+                                      <img class="job-card_img" src="image/it list/codigmart.jpg" alt="">
+                                    </div>
+                                    <div class="job-card_sec2">
+                                      <h2>Codingmart</h2>
+                                      <p>⭐4.2 | 1790 Reviews</p>
+                                      <h3>Data Analytics</h3>
+                                      <p> Bengaluru | 0-1 Yrs</p>
+                                      <p>Skills:Python,Sql,Excel,Power BI</p>
+                                    </div>
+                                     
+                                    </div></a>
+                                       <a href="#"> <div class="job-card">
+                                        <div class="job-card_sec1">
+                                          <img class="job-card_img" src="image/it list/eclerx.png" alt="">
+                                        </div>
+                                        <div class="job-card_sec2">
+                                          <h2>Eclerx</h2>
+                                          <p>⭐4.2 | 340 Reviews</p>
+                                          <h3>MERN Stack Developer</h3>
+                                          <p> Bengaluru | 0-1 Yrs</p>
+                                          <p>Skills: React JS, Node JS, MongoDB</p>
+                                        </div>
+                                         
+                                        </div></a>
+                                            <a href="#"><div class="job-card">
+                                                <div class="job-card_sec1">
+                                                  <img class="job-card_img" src="image/it list/hexaware.png" alt="">
+                                                </div>
+                                                <div class="job-card_sec2">
+                                                  <h2>HexaWare</h2>
+                                                  <p>⭐4.2 | 2180 Reviews</p>
+                                                  <h3>Full Stack Developer</h3>
+                                                  <p> Bengaluru,Chennai | 0 Yrs</p>
+                                                  <p>Skills:Python,Django,JAvascript,Sql, React JS</p>
+                                                </div>
+                                                 
+                                                </div></a>
+                                                <a href="#"><div class="job-card">
+                                                    <div class="job-card_sec1">
+                                                      <img class="job-card_img" src="image/it list/ibm.png" alt="">
+                                                    </div>
+                                                    <div class="job-card_sec2">
+                                                      <h2>IBM</h2>
+                                                      <p>⭐4.2 | 8967 Reviews</p>
+                                                      <h3>Software Developer</h3>
+                                                      <p>chennai | 0-2 Yrs</p>
+                                                      <p>Skills: Python,Java,DSA,C,C++</p>
+                                                    </div>
+                                                     
+                                                    </div></a>
+                                                    <a href="#"><div class="job-card">
+                                                        <div class="job-card_sec1">
+                                                          <img class="job-card_img" src="image/it list/infosys-logo.png.original.png" alt="">
+                                                        </div>
+                                                        <div class="job-card_sec2">
+                                                          <h2>ITC infotech</h2>
+                                                          <p>⭐4.2 |  Reviews</p>
+                                                          <h3>Frontend Developer</h3>
+                                                          <p> Bengaluru | 0-Yrs</p>
+                                                          <p>Skills:Html,Css,JavaScript, React JS,Responsive Design</p>
+                                                        </div>
+                                                         
+                                                        </div></a>
+                            </div>
+                        </div>
+        
+                        <div class="content" id="youMightLike">
+                           <div class="contentflex">
+                            <a href="#"><div class="job-card">
+                                <div class="job-card_sec1">
+                                  <img class="job-card_img" src="image/it list/Razorpay.jpeg" alt="">
+                                </div>
+                                <div class="job-card_sec2">
+                                  <h2>Razorpay</h2>
+                                  <p>⭐4.8 | 5600 Reviews</p>
+                                  <h3>Machine Learning Engineer</h3>
+                                  <p>Chennai | 0-1 Yrs</p>
+                                  <p>Skills: React JS, Node JS, MongoDB</p>
+                                </div>
+                                 
+                                </div></a>
+                               <a href="#"> <div class="job-card">
+                                <div class="job-card_sec1">
+                                  <img class="job-card_img" src="image/it list/Uber India.png" alt="">
+                                </div>
+                                <div class="job-card_sec2">
+                                  <h2>Uber India</h2>
+                                  <p>⭐4.2 | 4000 Reviews</p>
+                                  <h3>Data Scientist</h3>
+                                  <p>Kolkata | 0-1 Yrs</p>
+                                  <p>Skills: React JS, Node JS, MongoDB</p>
+                                </div>
+                                 
+                                </div></a>
+                           </div>
+                        </div>
+        
+                        <div class="content" id="preferences">
+                            <div class="contentflex">
+                                <a href="#"><div class="job-card">
+                                    <div class="job-card_sec1">
+                                      <img class="job-card_img" src="image/it list/Ola Cabs.png" alt="">
+                                    </div>
+                                    <div class="job-card_sec2">
+                                      <h2>Ola Cabs</h2>
+                                      <p>⭐4.4 | 5600 Reviews</p>
+                                      <h3>DevOps Engineer</h3>
+                                      <p>Bengaluru | 0-1 Yrs</p>
+                                      <p>Skills: React JS, Node JS, MongoDB</p>
+                                    </div>
+                                     
+                                    </div></a>
+                                    <a href="#"><div class="job-card">
+                                        <div class="job-card_sec1">
+                                          <img class="job-card_img" src="image/it list/Snapdeal.png" alt="">
+                                        </div>
+                                        <div class="job-card_sec2">
+                                          <h2>Snapdeal</h2>
+                                          <p>⭐4.5 | 6700 Reviews</p>
+                                          <h3>Database Administrator</h3>
+                                          <p>Delhi | 0-1 Yrs</p>
+                                          <p>Skills: React JS, Node JS, MongoDB</p>
+                                        </div>
+                                         
+                                        </div></a>
+                                        <a href="#">
+                                            <div class="job-card">
+                                                <div class="job-card_sec1">
+                                                  <img class="job-card_img" src="image/it list/Swiggy.png" alt="">
+                                                </div>
+                                                <div class="job-card_sec2">
+                                                  <h2>Swiggy</h2>
+                                                  <p>⭐4.6 | 9753 Reviews</p>
+                                                  <h3>Network Engineer</h3>
+                                                  <p>Pune | 0-1 Yrs</p>
+                                                  <p>Skills: React JS, Node JS, MongoDB</p>
+                                                </div>
+                                                 
+                                                </div>
+                                        </a>
+                                            <a href="#">
+                                                <div class="job-card">
+                                                    <div class="job-card_sec1">
+                                                      <img class="job-card_img" src="image/it list/Zomato.png" alt="">
+                                                    </div>
+                                                    <div class="job-card_sec2">
+                                                      <h2>Zomato</h2>
+                                                      <p>⭐4.7 | 7654 Reviews</p>
+                                                      <h3>Quality Assurance Engineer</h3>
+                                                      <p>Bengaluru | 0-1 Yrs</p>
+                                                      <p>Skills: React JS, Node JS, MongoDB</p>
+                                                    </div>
+                                                     
+                                                    </div>
+                                            </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="all-1">
+              <div class="explore-jobs">
+                <div class="headi-explore">
+                  <h3>Explore jobs by top companies</h3>
+                  <a href="#" class="m-b-1">view all</a>
+                </div>
+            
+                <!-- Add left and right buttons for scrolling -->
+                <button id="leftBtn" class="scroll-btn" style="display: none;">◀</button>
+                <div class="explore-company" id="jobContainer">
+                 
+            
+                  <!-- Repeat for other companies -->
+            
+                  
+                 
+                  <div class="main-mnc">
+                    <div class="space"></div>
+                    <div class="spn">
+                      <span class="material-symbols-outlined">
+                        apartment
+                        </span>
+                        <p class="para"> 10d ago</p>
+                    </div>
+                  
+                      <h3 >Customer Support</h3>
+                     <div class="m-1">
+                      <p>Company: XYZ Pvt Ltd</p>
+                      <div class="m-l">
+                        <span class="material-symbols-outlined">
+                          pin_drop
+                          </span><p> Bangaluru</p>
+                      </div>
+                     </div>
+        
+                    
+                  </div>
+                  <div class="main-mnc">
+                    <div class="space"></div>
+                    <div class="spn">
+                      <span class="material-symbols-outlined">
+                        apartment
+                        </span>
+                        <p class="para"> 2d ago</p>
+                    </div>
+                  
+                      <h3>Customer representative</h3>
+                     <div class="m-1">
+                      <p>Company: Selectors hub Tech</p>
+                      <div class="m-l">
+                        <span class="material-symbols-outlined">
+                          pin_drop
+                          </span><p> Bangaluru</p>
+                      </div>
+                     </div>
+        
+                    
+                  </div>
+                  <div class="main-mnc">
+                    <div class="space"></div>
+                    <div class="spn">
+                      <span class="material-symbols-outlined">
+                        apartment
+                        </span>
+                        <p class="para"> 5d ago</p>
+                    </div>
+                  
+                      <h3>UI/UX Designer</h3>
+                     <div class="m-1">
+                      <p>Company: Selectors hub Tech</p>
+                      <div class="m-l">
+                        <span class="material-symbols-outlined">
+                          pin_drop
+                          </span><p> Bangaluru</p>
+                      </div>
+                     </div>
+        
+                    
+                  </div>
+                  <div class="main-mnc">
+                    <div class="space"></div>
+                    <div class="spn">
+                      <span class="material-symbols-outlined">
+                        apartment
+                        </span>
+                        <p class="para"> 1d ago</p>
+                    </div>
+                  
+                      <h3>Data Scientist</h3>
+                     <div class="m-1">
+                      <p>Company: ABC Solutions</p>
+                      <div class="m-l">
+                        <span class="material-symbols-outlined">
+                          pin_drop
+                          </span><p> Bangaluru</p>
+                      </div>
+                     </div>
+        
+                    
+                  </div>
+                  <div class="main-mnc">
+                    <div class="space"></div>
+                    <div class="spn">
+                      <span class="material-symbols-outlined">
+                        apartment
+                        </span>
+                        <p class="para"> 7d ago</p>
+                    </div>
+                  
+                      <h3>Frontend Developer</h3>
+                     <div class="m-1">
+                      <p>Company: XYZ Pvt Ltd</p>
+                      <div class="m-l">
+                        <span class="material-symbols-outlined">
+                          pin_drop
+                          </span><p> Bangaluru</p>
+                      </div>
+                     </div>
+        
+                    
+                  </div>
+                  <div class="main-mnc">
+                    <div class="space"></div>
+                    <div class="spn">
+                      <span class="material-symbols-outlined">
+                        apartment
+                        </span>
+                        <p class="para"> 4d ago</p>
+                    </div>
+                  
+                      <h3>Backend Developer</h3>
+                     <div class="m-1">
+                      <p>Company: TechSoft</p>
+                      <div class="m-l">
+                        <span class="material-symbols-outlined">
+                          pin_drop
+                          </span><p> Bangaluru</p>
+                      </div>
+                     </div>
+        
+                    
+                  </div>
+                  <div class="main-mnc">
+                    <div class="space"></div>
+                    <div class="spn">
+                      <span class="material-symbols-outlined">
+                        apartment
+                        </span>
+                        <p class="para"> 3d ago</p>
+                    </div>
+                  
+                      <h3>Technical Support</h3>
+                     <div class="m-1">
+                      <p>Company: ABC Solutions</p>
+                      <div class="m-l">
+                        <span class="material-symbols-outlined">
+                          pin_drop
+                          </span><p> Bangaluru</p>
+                      </div>
+                     </div>
+        
+                    
+                  </div>
+            
+                  <!-- Add more companies as needed -->
+                </div>
+                <button id="rightBtn" class="scroll-btn">▶</button>
+              </div>
+            </div>
+            
+            <div class="all-1">
+                <div class="headi-explore">
+                <div>
+                  <h3> Expert speak</h3>
+                  <small>  Gain insights from industry experts</small>
+                </div>
+                <button class="m-b-1"><a href="speak/Speak.html">view </a></button>
+                </div>
+                <div class="content1-y">
+                  <p class="y-p"> How data sience is revolutionizing ad tech and the advertising industry</p>
+                  <label for="com" class="y-c"> career Opportunities</label>
+                  <label for="com" class="y-c"> college graduates</label>
+      
+            
+                </div>
+                <div class="author">
+                  <img src="image/woman.webp" alt="ramya" class="ym">
+                  <div class="ym1">
+                    <h5>Ramya parashar</h5>
+                  <small>Chief Operating Officer at MiQ</small>
+                  </div>
+      
+                </div>
+                <div class="date">
+                  <span class="material-symbols-outlined">
+                    calendar_month
+                    </span>
+                    <p>Sep 23, Monday 4-5pm</p>
+      
+                </div>
+                <p class="m-b-1"  ><a href="#" class="the"> View the recording ...</a></p>
+              </div>
+              <div class="NCAT-main">
+                <div class="all-1">
+                  <div class="m-80">
+                    <div class="off">
+                      <h4>80% companies hire using an aptitude test! Practice with NCAT.</h4>
+                      <div class="t-1">
+                        <div class="f-1">
+                          <span class="material-symbols-outlined">
+                            check</span>
+                        <p> Test your skills early</p></div>
+                        <div class="f-1">
+                          <span class="material-symbols-outlined">
+                            check
+                            </span><p>Access your strengths</p>
+                        </div>
+                         
+                           <div class="f-1">
+                            <span class="material-symbols-outlined">
+                              check
+                              </span><p>Understand areas of improvement</p>
+                           </div>
+                      </div>
+                            <div class="ncat">
+                              <button class="NCAT">NCAT</button>
+                              <p class="nt">Know more</p>
+        
+                            </div>
+                            <div class="f-1"><span class="material-symbols-outlined">
+                              group
+                              </span><p>6.5L+ student attempted </p></div>
+                    </div>
+                    <div class="off-80">
+                      <img src="image/ncat.webp" alt="#" class="img-80">
+                    </div>
+                  </div>
+        
+                </div>
+              </div>
+              <div class="all-1">
+                <div class="careerguidance">
+                  <div class="heading">
+                    <h3>Career guidance </h3>
+                    <button class="m-b-1"> <a href="#">view</a></button>
+                    
+                  </div>
+                  <div class="foftcontent">
+                    <div class="software">
+                      <a href="/career nest home page/career nest main page/career guid/prepare\prepare.html">
+                        <img src="image/answering.webp" alt="#" class="answer">
+                      <div class="bodycontent">
+                        <h5>How to become a Software enaineer-skills.salaries...</h5>
+                      </div>
+                      <div><small> 10 min red | 64 views</small></div>
+                      </a>
+                      
+                        
+                    </div>
+                    <div class="software">
+                      <a href="/career nest home page/career nest main page/career guid/communication skills/communication.html"><img src="image/communication.webp" alt="#" class="answer">
+                        <div class="bodycontent">
+                          <h5>How to improve communication skills?...</h5>
+                        </div>
+                        <div><small> 8 min red | 4,400 views| 24 likes</small></div></a>
+                      
+                        
+                    </div>
+                    <div class="software">
+                      <img src="image/work-life (1).png" alt="#" class="answer">
+                      <div class="bodycontent">
+                        <h5>Work-Life Balance: Meaning, importance. Quotes....</h5>
+                      </div>
+                      <div><small> 11 min red | 464 views | like</small></div>
+                      
+                        
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+              </div>
+              <div class="all-12" id="participate" class="content-section" style="display:none;">
+                <div class="p-head">
+                  <h3> participate in exciting contests</h3>
+                <button class="m-b-1"><a href="#"> view all</a></button>
+                </div>
+                <div class="paticipate">
+                  
+                  <div class="bor">
+                    <div class="details-my">
+                      <img src="image/myfurrier company.jpeg" alt="mufurrier" class="myfurrier">
+                      <h4 class="myfurr" > Software intern(live project) (Open for College Student)
+                        <small> Myfurrier</small>
+                      </h4>
+                    </div>
+                    
+                    <div  class="mar"><small> No.round:1 | Duration : 2 hr, 23 OCT | participation:Individual</small></div>
+                    <div class="mar">
+                      <span class="material-symbols-outlined">
+                      groups
+                      </span>
+                    14447 Enrolled  Reg.closes on 23 OCT, 07:00pm
+                    </div>
+                  </div>
+                </div>
+                <div class="paticipate">
+                  
+                  <div class="bor">
+                    <div class="details-my">
+                      <img src="logo.png" alt="mufurrier" class="myfurrier">
+                      <h4 class="myfurr" > BrandQuezt Contest #13: Corporate Social Responsibity
+                        <small> career nest</small>
+                      </h4>
+                    </div>
+                    
+                    <div  class="mar"><small> No.round:1 | Duration :  30 mins, 03 NOV | participation:Individual</small></div>
+                    <div class="mar">
+                      <span class="material-symbols-outlined">
+                      groups
+                      </span>
+                    9877 Enrolled  Reg.closes on 03 NOV, 07:00pm
+                    </div>
+                  </div>
+                </div>
+                <div class="paticipate">
+                  
+                  <div class="bor">
+                    <div class="details-my">
+                      <img src="logo.png" alt="mufurrier" class="myfurrier">
+                      <h4 class="myfurr" > Career Nest Campus Young Turks Contest #1: NCAT
+                        <small> career nest</small>
+                      </h4>
+                    </div>
+                    
+                    <div  class="mar"><small> No.round:1 | Duration :  30 mins, 5 OCT | participation:Individual</small></div>
+                    <div class="mar">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                        </span>
+                    Contest Completed
+                    </div>
+                  </div>
+                </div>
+                <div class="paticipate">
+                  
+                  <div class="bor">
+                    <div class="details-my">
+                      <img src="image/endezvous.jpeg" alt="mufurrier" class="myfurrier">
+                      <h4 class="myfurr" > Rendezvous'24, IIt Delhi, indian institue of Technology
+                        <small> Rendezvous</small>
+                      </h4>
+                    </div>
+                    
+                    <div  class="mar"><small> No.round:1 | Duration :  30 mins, 1 OCT | participation:Individual</small></div>
+                    <div class="mar">
+                      <span class="material-symbols-outlined">
+                        check_circle
+                        </span>
+                    Contest Completed
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+              <div id="opportunities" class="content-section" style="display:none;">
+                <div class="all-12"><div class="job-card_sec" id="z">
+                  <div class="job-card" id="x">
+                      <div class="job-card_sec1">
+                        <img class="job-card_img" src="image/it list/Cyient.png" alt="">
+                      </div>
+                      <div class="job-card_sec2">
+                        <h2>Cyient</h2>
+                        <p>⭐4.7 | 7896 Reviews</p>
+                        <h3>Business Analyst</h3>
+                        <p>Chennai | 0-1 Yrs</p>
+                        <p>Skills: React JS, Node JS, MongoDB</p>
+                      </div>
+                       
+                      </div>
+                      <div class="job-card" id="x">
+                          <div class="job-card_sec1">
+                            <img class="job-card_img" src="image/it list/birlasoft.png 1.jpeg" alt="">
+                          </div>
+                          <div class="job-card_sec2">
+                            <h2>Birlasoft</h2>
+                            <p>⭐4.5 | 3800 Reviews</p>
+                            <h3>Mobile App Developer</h3>
+                            <p>Bengaluru | 0-1 Yrs</p>
+                            <p>Skills: React JS, Node JS, MongoDB</p>
+                          </div>
+                           
+                          </div>
+                     
+              </div>
+              <div class="job-card_sec" id="z">
+                <div class="job-card" id="x">
+                    <div class="job-card_sec1">
+                      <img class="job-card_img" src="image/it list/kpi.jpeg" alt="">
+                    </div>
+                    <div class="job-card_sec2">
+                      <h2>KPIT Technologies</h2>
+                      <p>⭐2.9 | 2345 Reviews</p>
+                      <h3>Cloud Solutions Architect</h3>
+                      <p>Delhi | 0-1 Yrs</p>
+                      <p>Skills: React JS, Node JS, MongoDB</p>
+                    </div>
+                     
+                    </div>
+                    <div class="job-card" id="x">
+                        <div class="job-card_sec1">
+                          <img class="job-card_img" src="image/it list/syntel 1.png" alt="">
+                        </div>
+                        <div class="job-card_sec2">
+                          <h2>Syntel</h2>
+                          <p>⭐4.4 | 3700 Reviews</p>
+                          <h3>Artificial Intelligence Engineer</h3>
+                          <p>Chennai | 0-1 Yrs</p>
+                          <p>Skills: React JS, Node JS, MongoDB</p>
+                        </div>
+                         
+                        </div>
+                   
+            </div>
+            <div class="job-card_sec" id="z">
+              <div class="job-card" id="x">
+                  <div class="job-card_sec1">
+                    <img class="job-card_img" src="image/it list/HCL Technologies.png" alt="">
+                  </div>
+                  <div class="job-card_sec2">
+                    <h2>HCL Technologies</h2>
+                    <p>⭐4.8 | 6789 Reviews</p>
+                    <h3>Technical Support Engineer</h3>
+                    <p>Kolkata | 0-1 Yrs</p>
+                    <p>Skills: React JS, Node JS, MongoDB</p>
+                  </div>
+                   
+                  </div>
+                  <div class="job-card" id="x">
+                      <div class="job-card_sec1">
+                        <img class="job-card_img" src="image/it list/Cognizant q1.jpeg" alt="">
+                      </div>
+                      <div class="job-card_sec2">
+                        <h2>Cognizant</h2>
+                        <p>⭐3.9 | 3400 Reviews</p>
+                        <h3>UI/UX Designer</h3>
+                        <p>Bengaluru | 0-1 Yrs</p>
+                        <p>Skills: React JS, Node JS, MongoDB</p>
+                      </div>
+                       
+                      </div>
+                      
+                 
+          </div>
+            </div>
+              </div>
+              
+           
+            </div>
+          </section>
+          <section>
+            <div class="advertisement ">
+              <div class="adds">
+                <img src="adds/Designer (1).png" alt="#" class="img1">
+                <h5>Achieve Your Work-Life Balance! (Detailed Guide)</h5>
+                <small>In today's fast-paced world, maintaining a perfect work-life balance has never been more critical. Our team is dedicated to helping you achieve just that. Join us for a career where flexibility, support, and growth are at the core of our philosophy.</small>
+              </div>
+              <div class="adds1">
+                <img src="adds/job2.webp" alt="#" class="img1">
+                <h5>Career</h5>
+                <small>In today's fast-paced world, maintaining a perfect work-life balance has never been more critical. Our team is dedicated to helping you achieve just that. Join us for a career where flexibility, support, and growth are at the core of our philosophy.</small>
+              </div>
+              <div class="adds2">
+                <img src="adds/Designer.png" alt="#" class="img1">
+                <h5>Achieve Your Dreams</h5>
+                <small>emphasizes the balance between professional ambition and personal well-being. It highlights how you can pursue career goals without sacrificing the quality of life, promoting a harmonious and fulfilling lifestyle. This concept shows that success isn't just about work; it's also about maintaining happiness and balance in all aspects of life.</small>
+              </div>
+
+            </div>
+          </section>
+           
+               
+              </div>
+              <div class="container">
+                <div class="card1">
+                  <div class="LOGO">
+                    <!-- <img
+                      class="logo"
+                      src="https://static.naukimg.com/s/4/100/i/naukri_Logo.png"
+                    /> -->
+                    <a href="./index.html"><img
+                      class="logo"
+                      src="logo.png" 
+                    /></a>
+                    <br />
+                  </div>
+                  <div class="connect">
+                    <p style="color: grey">Connect with us</p>
+                  </div>
+                  <div class="icon">
+                    <div class="ic">
+                      <i
+                        class="fa-brands fa-square-facebook fa-2x"
+                        style="color: grey"
+                      ></i>
+                    </div>
+                    <div class="ic">
+                      <i
+                        class="fa-brands fa-square-instagram fa-2x"
+                        style="color: grey"
+                      ></i>
+                    </div>
+                    <div class="ic">
+                      <i class="fa-brands fa-twitter fa-2x" style="color: grey"></i>
+                    </div>
+                    <div class="ic">
+                      <i class="fa-brands fa-linkedin fa-2x" style="color: grey"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="card2">
+                  <div class="grid-container">
+                    <div class="grid-item"><a href="about as/about.html">About us</a></div>
+                    <div class="grid-item"><a href="help/help.html">Help Center</a></div>
+                    <div class="grid-item"><a href="Privacy Policy/privacy.html">Privacy Policy</a></div>
+                    <div class="grid-item">Carrers</div>
+                    <div class="grid-item">Summons/Notices</div>
+                    <div class="grid-item">Terms & conditions</div>
+                    <div class="grid-item">Employer home</div>
+                    <div class="grid-item">Grievances</div>
+                    <div class="grid-item">Fraud alert</div>
+                    <div class="grid-item">Sitemap</div>
+                    <div class="grid-item">Report issue</div>
+                    <div class="grid-item">Trust & safety</div>
+                  </div>
+                </div>
+          
+                <div class="card3">
+                  <div id="ps">
+                    <h2>Apply on the go</h2>
+                    <p style="color: grey">Get real-time job updates on our App</p>
+                  </div>
+                  <div class="png">
+                    <div>
+                      <img
+                        src="https://static.naukimg.com/s/0/0/i/new-homepage/android-app.png"
+                        height="44px"
+                        width="151px"
+                        alt="google play"
+                      />
+                    </div>
+                    <div>
+                      <img
+                        src="https://static.naukimg.com/s/0/0/i/new-homepage/ios-app.png"
+                        height="44px"
+                        width="151px"
+                        alt="app store"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+            
+            </div>
+            <div class="main-div-logout" id="profileSection" style="display:none;">
+        
+              <div class="m-profile-logout-p">
+                  <a href="#"><span class="material-symbols-outlined span1" id="closeProfile">
+                    close
+                    </span></a>
+                  <div class="profile">
+                      <svg width="80" height="80" viewBox="0 0 200 200">
+                  
+                          <circle cx="100" cy="100" r="90" stroke="#e0e0e0" stroke-width="15" fill="none" />
+                          
+                        
+                          <circle cx="100" cy="100" r="90" stroke="#4caf50" stroke-width="15" fill="none"
+                                  stroke-dasharray="565.48" stroke-dashoffset="113.1" stroke-linecap="round"
+                                  transform="rotate(-90 100 100)" />
+                          
+                        
+                          <clipPath id="profileClip">
+                            <circle cx="100" cy="100" r="80" />
+                          </clipPath>
+                          <image x="20" y="20" width="160" height="160" xlink:href="account.png" clip-path="url(#profileClip)" />
+                        </svg>
+                  </div>
+                  <!-- <div class="y-profile-lab">
+                    <h3><p> <span id="displayUsername"></span></p></h3>
+                    <h3 id="displayuniversity"></h3>
+                  </div>  -->
+                  <div class="y-profile-btn">
+                      <button class="y-c-btn">
+                          
+                          <a href="/career nest home page/career nest main page/c-profil/profile.html" class="a-a">complete profile</a>
+                      </button>
+                  </div>
+                  <div class="y-profile-update logout-p">
+                      <div class="profile-y">Profile performance</div>
+                      <div class="y-profile-pending">
+                          <div y-pending1>
+                              <div class="pending1">Search appearances
+                                  <p id="randomNumber3">Random Number will appear here!</p>
+                              </div>
+                          </div>
+                          <div class="code"></div>
+                          <div y-pending2>
+                              <div class="pending2">Recruiter actions 
+                                  <p id="randomNumber2">Random Number will appear here!</p><div>
+                                  
+                              </div></div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="log_list">
+      
+                    <div>
+                        <ul>
+                            <li><a href="D:/career nest home page/career nest main page/help/help.html"><span class="material-symbols-outlined">
+                              help
+                              </span>FQA</a></li>
+                            <li><a href="/career nest home page/index.html"><span class="material-symbols-outlined">
+                              logout
+                              </span>Logout</a></li>
+                        </ul>
+                    </div>
+        
+        
+                </div>
+                  
+              </div>
+              
+      
+      
+          </div>
+            
+        
+       
+    <script>
+     
+        
+        const randomNum = Math.floor(Math.random() * 10) + 1;
+        
+        
+        document.getElementById('randomNumber').textContent = ` ${randomNum}`;
+         // Generate a random number on page load
+         const randomNumb = Math.floor(Math.random() * 10) + 1;
+        
+         // Display the random number in the <p> tag
+         document.getElementById('randomNumber1').textContent = ` ${randomNumb}`;
+    
+      // Retrieve the username from localStorage
+    const username = localStorage.getItem('username');
+
+    // Check if the username exists in localStorage
+    if (username) {
+      // Display the username in the <span> tag
+      document.getElementById('displayUsername').textContent = username;
+    } else {
+      // If no username is found, default to 'Guest'
+      document.getElementById('displayUsername').textContent = 'Guest';
+    }
+
+     // Retrieve the university name from localStorage
+     const universityName = localStorage.getItem('universityName');
+
+     // Display the university name in the h3 tag
+     if (universityName) {
+         document.getElementById('displayuniversity').textContent =  universityName;
+     } else {
+         document.getElementById('displayuniversity').textContent = "university ";
+     }
+       // Show the profile section when the account button is clicked
+    document.getElementById("accountButton").addEventListener("click", function() {
+      document.getElementById("profileSection").style.display = "block";
+  });
+
+  // Hide the profile section when the close button is clicked
+  document.getElementById("closeProfile").addEventListener("click", function() {
+      document.getElementById("profileSection").style.display = "none";
+  });
+
+      const RandomNumber= Math.floor(Math.random()*10+1);
+      document.getElementById("randomNumber3").textContent=`${RandomNumber}`
+      document.getElementById("randomNumber2").textContent=`${RandomNumber}`
+    </script>
+    
+    <script src="main.js"></script>
+</body>
+
+</html>
